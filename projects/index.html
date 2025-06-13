@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--Makes the page like visible-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reese Stichter Web Portfolio</title>
+
+
+    <!--CSS Imports for Font/Icons/CSS Sheets-->
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+    <!--Header code for the fixed header-->
+        <nav class="perm-header">
+            <ul class="page-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="../coursework/index.html">Coursework</a></li>
+                <li><a href="../aboutme/index.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="intro">
+            <div class="name">
+                <h1>Projects</h1>
+                <h3>All project code available on my Github</h3>
+            </div>
+        </div>
+
+      <div class="project-carousel">
+        <button id="left-arrow">←</button>
+
+        <div class="project-wrapper">
+
+            <!-- PROJECT 1 -->
+            <div class="project-card active">
+                <section class="project-container">
+
+                    <h1>Interactive Big Brother Project</h1>
+                    <p class="project-description">
+                        Simulates Big Brother logic-based elimination game in C++.
+                    </p>
+
+                    <!--Start at 0:08, end at 2:02-->
+                    <video autoplay muted controls id="bb-vid">
+                        <source src="bb-demo.mp4" type="video/mp4">
+                        Big Brother Demo Video
+                    </video>
+
+                    <p class="github-link">
+                        <a href="https://github.com/reesestic/Big-Brother-Interactive" target="_blank">View on GitHub</a>
+                    </p>
+
+                    <h2>Language Used: C++</h2>
+
+                    <div class="skills-struggles">
+                        <h3>Skills Gained: C++ Data Structures, Project Management, Complex Classes</h3>
+                        <h3>Struggles I Overcame: Vector Management, Intricate Looping</h3>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+                <section class="project-container">
+                    <h1>Clock In - Study Timer Website</h1>
+                    <p class="project-description">
+                        Website to generate study schedules and an interactive study timer.
+                    </p>
+
+                    <video autoplay muted controls id="study-vid">
+                        <source src="study-website.mp4" type="video/mp4">
+                        Study Website Demo Video
+                    </video>
+
+                    <p class="github-link">
+                        <a href="https://github.com/reesestic/shark-hacks-study-website" target="_blank">View on GitHub</a>
+                    </p>
+
+                    <h2>Language Used: Python, HTML, CSS, JS</h2>
+
+                    <div class="skills-struggles">
+                        <h3>Skills Gained: UI Design, Flask, Backend Development</h3>
+                        <h3>Struggles I Overcame: Team-Oriented Development, Rapid Development Window</h3>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+                <section class="project-container">
+                    <h1>Book Recommender Project</h1>
+                    <p class="project-description">
+                        Menu for book reviews and output styling based on user reviews.
+                    </p>
+
+                    
+                    <img src="book-recommender.png" alt="Book Recommender Screenshot">
+
+                    <p class="github-link">
+                        <a href="https://github.com/reesestic/Book-Recommender" target="_blank">View on GitHub</a>
+                    </p>
+
+                    <h2>Language Used: C++</h2>
+
+                    <div class="skills-struggles">
+                        <h3>Skills Gained: Modular Development Emphasis, C++ Maps/Functions</h3>
+                        <h3>Struggles I Overcame: Output Styling</h3>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- PROJECT 4 -->
+            <div class="project-card">
+                <section class="project-container">
+
+                    <h1>Personal Website Development</h1>
+                    <p class="project-description">
+                        This website, which I built from scratch in HTML/CSS independently.
+                    </p>
+
+                    <img src="website-pic.png" alt="Personal Website Screenshot">
+
+                    <p class="github-link">
+                        <a href="https://github.com/reesestic/big-brother" target="_blank">View on GitHub</a>
+                    </p>
+
+                    <h2>Language Used: HTML, CSS, JavaScript</h2>
+
+                    <div class="skills-struggles">
+                        <h3>Skills Gained: Web Development, CSS Styling, JavaScript</h3>
+                        <h3>Struggles I Overcame: CSS Styling Errors, Linking/File Issues</h3>
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+
+        <button id="right-arrow">→</button>
+    </div>
+
+    </main>
+
+    <footer>
+        <!--Need Link section for GITHUB, LINKEDIN-->
+        <div class="links">
+
+            <a href="https://github.com/reesestic" target="_blank">
+                <i class="fab fa-github"></i> 
+                Github
+            </a>
+
+            <a href="https://www.linkedin.com/in/reese-stichter/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+            </a>
+
+            <a href="Resume.pdf" target="_blank">
+                <i class="fas fa-file"></i>   
+                Resume
+            </a>
+
+        </div>
+    </footer>
+
+</body>
+
+<!--Link JS for background-->
+<script src="script.js"></script>
+
+
+</html>

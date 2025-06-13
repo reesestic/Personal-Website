@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+main {
+    padding-top: 75px;
+}
+
+#bg-video {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.projects-page {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size:40px;
+    width: 100%;
+    font-weight: bold;
+    color: hsla(44, 22%, 94%, 0.9);
+    text-align: center;
+    justify-content: center;
+}
+
+.name h2 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    color: hsla(44, 22%, 94%, 0.9);
+}
+
+
+
+.perm-header {
+    position: fixed;
+    height: 75px;
+    width:100%;
+    background-color: hsla(44, 22%, 94%, 0.7);
+}
+
+.page-links {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.page-links li {
+    display: flex;
+    align-items: center;    /* vertical centering ✅ */
+    justify-content: center; /* optional: horizontal centering */
+    height: 100%;
+    font-size: 35px;
+}
+
+.page-links a {
+    display: flex;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+}
+
+.page-links a:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+
+
+footer {
+    background-color: hsla(44, 22%, 94%, 0.7);
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer i {
+    transition: transform 0.3s;
+    margin: 7px;
+    font-size: 50px;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px;
+    font-size:18px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.links a:hover {
+    color: white;
+}
+
+.links a:hover i {
+    transform: scale(1.3);
+    color: white;
+}
+
